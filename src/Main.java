@@ -12,6 +12,23 @@ public class Main {
 		int[] arr = {1,2,3,-1,-2,-3,1,-1,2,3,4,-1};
 		MaxSubArray msa = new MaxSubArray();
 		System.out.println(msa.func(arr));
+		
+		//Merge Sort
+		
+		//Selection Sort
+		SelectionSort ss = new SelectionSort();
+		ss.func(arr);
+		
+		//Heap Sort
+		//Radix Sort
+		//Quick Sort
+		//MySort
+		MySort ms = new MySort();
+		ms.func(arr);
+		
+		//k-closest points from origin
+		
+		
 	}
 
 }
