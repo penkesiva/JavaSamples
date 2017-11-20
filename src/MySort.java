@@ -19,6 +19,7 @@ public class MySort {
 		for(int k=0; k<arr.length; k++) {
 			System.out.print(arr[k] + " ");
 		}
+		System.out.println("");
 		
 		return arr;
 	}

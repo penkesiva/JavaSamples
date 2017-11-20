@@ -4,30 +4,35 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		FirstRecurringChar frc = new FirstRecurringChar();
-		System.out.println(frc.func("ABCDA"));//A
+		System.out.println("FirstRecurringChar: " + frc.func("ABCDA"));//A
 		
 		FirstNonRecurringChar fnrc = new FirstNonRecurringChar();
-		System.out.println(fnrc.func("ABBCDCA"));//D
+		System.out.println("FirstNonRecurringChar: " + fnrc.func("ABBCDCA"));//D
 		
 		int[] arr = {1,2,3,-1,-2,-3,1,-1,2,3,4,-1};
 		MaxSubArray msa = new MaxSubArray();
-		System.out.println(msa.func(arr));
+		System.out.println("MaxSubArray: " + msa.func(arr));
 		
 		//Merge Sort
 		
-		//Selection Sort
+		//Selection Sort O(n2)
 		SelectionSort ss = new SelectionSort();
 		ss.func(arr);
 		
 		//Heap Sort
 		//Radix Sort
 		//Quick Sort
-		//MySort
+		
+		//MySort O(n2)
 		MySort ms = new MySort();
 		ms.func(arr);
 		
 		//k-closest points from origin
 		
+		
+		//string reverse
+		ReverseString rs = new ReverseString();
+		System.out.println("Reverse String " + rs.func("niart"));
 		
 	}
 
